@@ -3,7 +3,9 @@ php:
   - 5.5
  # - 5.6
 
-
+git:
+  submodules: false
+  
 branches:
  except:
    - test
