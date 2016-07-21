@@ -6,6 +6,11 @@ php:
   - 5.6
   - 7.0
   
+env:
+  - foo=bar
+  - x=y
+  - a=b
+  
   
 services:
   - mysql
