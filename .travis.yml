@@ -7,7 +7,7 @@ git:
   submodules: false
   
 branches:
- except:
+ only:
    - test
    - master
    
